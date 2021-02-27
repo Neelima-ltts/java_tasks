@@ -16,8 +16,7 @@ if(year>0){
         else
           leap = false;
       }
-      
-      // if the year is not century
+// if the year is not century
       else
         leap = true;
     }
