@@ -10,8 +10,8 @@ return f;
 public static int count(int n){
 int l=0;
 while(n!=0){
-l++;
-n/=10;
+  l++;
+  n/=10;
 }
 return l;
 }
