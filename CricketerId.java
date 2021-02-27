@@ -2,17 +2,17 @@ import java.util.*;
 class CricketerId{
 public static void  findCricketerId(int a[], int size, int score){
 if(size<0){
-System.out.println("Invalid array size");
+   System.out.println("Invalid array size");
 }
 for(int i=1;i<size;i=i+2){
 if(a[i]<0){
-System.out.println("Invalid score");
+   System.out.println("Invalid score");
 }
 else if(a[i-1]<0){
-System.out.println("Invalid score");
+   System.out.println("Invalid score");
 }
 if(a[i] > score){
-System.out.println(a[i-1]);
+   System.out.println(a[i-1]);
 }
 }
 }
