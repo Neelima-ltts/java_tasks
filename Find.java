@@ -4,7 +4,7 @@ public static int findElementCount(int size,int a[],int x){
 int res = 0;
 int count = 0;
 if(size<0 || x<0){
-res = -1;
+ res = -1;
 }
 else{
 for(int i=0;i<size;i++){
