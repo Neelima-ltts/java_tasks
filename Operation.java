@@ -17,9 +17,9 @@ result=a/b;
 }
 }
 else if(a>32767 || b>32767 || a<0 || b<0 || c<0 || c>4){
-result=-1;
+ result=-1;
 }
-return result;
+ return result;
 }
 public static void main(String args[]){
 int x,y,z;
